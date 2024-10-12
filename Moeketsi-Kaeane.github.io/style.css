@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* kept my version */
+    background-color: #f4f4f4;
 }
 
 header {
@@ -43,30 +43,4 @@ a {
 
 a:hover {
     text-decoration: underline;
-    background-color: #fff; /* kept the other version */
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #4CAF50;
-}
-
-section {
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    00abd947a274bde80e08101cf2d3cbf31d23f8e9
 }
