@@ -1,58 +1,70 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moeketsi Kaeane's Portfolio</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
-    <!-- Google Fonts -->
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header style="text-align: center; background-color: #2c3e50; padding: 30px; color: white;">
-        <img src="profile.jpg" alt="Profile Picture" style="width: 180px; height: auto; border-radius: 50%; border: 5px solid #2980b9;">
-        <h1 style="font-family: 'Montserrat', sans-serif;">Moeketsi Kaeane</h1>
-        <p style="font-family: 'Open Sans', sans-serif; font-size: 18px;">BTech in Electrical and Electronics Engineering</p>
-        <p style="font-family: 'Open Sans', sans-serif; font-size: 18px;">Specializing in Robotics, AI, and Biomedical Engineering</p>
-        <p style="font-family: 'Open Sans', sans-serif; font-size: 18px;">Fluent in English and French</p>
-
-        <!-- Introduction paragraph -->
-        <p style="font-family: 'Open Sans', sans-serif; font-size: 16px; color: skyblue; margin-top: 20px; max-width: 600px; margin-left: auto; margin-right: auto;">
-            I am passionate about the intersection of Electrical Engineering and cutting-edge technologies. With a strong foundation in Robotics, Artificial Intelligence, and Biomedical Engineering, I strive to innovate solutions that improve lives. My international background, fluency in both English and French, and experience in various interdisciplinary fields fuel my ambition to continue learning and contributing to impactful projects.
-        </p>
+    <header>
+        <h1>Moeketsi Kaeane</h1>
+        <p>Aspiring Electrical Engineer specializing in Robotics and AI</p>
     </header>
-    
-    <nav style="text-align: center; margin-top: 20px;">
-        <ul style="list-style-type: none; padding: 0;">
-            <li style="display: inline; margin-right: 20px;"><a href="#skills" style="color: #2980b9; text-decoration: none; font-family: 'Montserrat', sans-serif;">Skills</a></li>
-            <li style="display: inline; margin-right: 20px;"><a href="#resume" style="color: #2980b9; text-decoration: none; font-family: 'Montserrat', sans-serif;">Resume</a></li>
-            <li style="display: inline; margin-right: 20px;"><a href="#contact" style="color: #2980b9; text-decoration: none; font-family: 'Montserrat', sans-serif;">Contact</a></li>
-        </ul>
-    </nav>
 
-    <section id="skills" style="padding: 40px; background-color: #ecf0f1;">
-        <h2 style="font-family: 'Montserrat', sans-serif; color: #2c3e50;">Skills</h2>
-        <ul style="font-family: 'Open Sans', sans-serif; font-size: 16px; color: #34495e;">
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am passionate about the intersection of Electrical Engineering and cutting-edge technologies. 
+            With a strong foundation in Robotics, AI, and Biomedical Engineering, I strive to innovate solutions that improve lives.
+        </p>
+        <p><a href="resume.pdf" download>Download my Resume</a></p>
+    </section>
+
+    <section id="skills">
+        <h2>Core Competencies</h2>
+        <ul>
             <li>Python</li>
             <li>Arduino</li>
             <li>Robotics</li>
             <li>AI</li>
             <li>IoT</li>
-            <li>Biomedical Engineering</li>
             <li>Machine Learning</li>
         </ul>
     </section>
 
-    <section id="resume" style="padding: 40px;">
-        <h2 style="font-family: 'Montserrat', sans-serif; color: #2c3e50;">Resume</h2>
-        <p><a href="resume.pdf" download style="color: #2980b9; font-family: 'Open Sans', sans-serif;">Download my Resume</a></p>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="SONAR">
+            <h3>IoT Project</h3>
+            <p>Brief description of your IoT project.</p>
+            <a href="https://github.com/yourusername/your-iot-project" target="_blank">View Project</a>
+        </div class="Rain detector">
+        <div class="Fire detector and alarm">
+        <div class="Automatic streetlights">
+        </div class="light intensity meter">
+        <!-- Repeat for other projects -->
     </section>
 
-    <section id="contact" style="padding: 40px; background-color: #ecf0f1;">
-        <h2 style="font-family: 'Montserrat', sans-serif; color: #2c3e50;">Contact</h2>
-        <p style="font-family: 'Open Sans', sans-serif; font-size: 16px;">Email: <a href="mailto:moeketsikaeane57@gmail.com" style="color: #2980b9;">moeketsikaeane57@gmail.com</a></p>
-        <p style="font-family: 'Open Sans', sans-serif; font-size: 16px;">LinkedIn: <a href="http://linkedin.com/in/raymond-kaeane-155949224" target="_blank" style="color: #2980b9;">My LinkedIn Profile</a></p>
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="Biomedical engineer trainee">
+            <h3>Internship at ONP Hospital</h3>
+            <p>Role: Biomedical Engineering Trainee</p>
+            <p>Contributed to the development of biomedical devices...</p>
+        </div>
+        <!-- Repeat for other experiences -->
     </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:moeketsikaeane57@gmail.com">moeketsikaeane57@gmail.com</a></p>
+        <p>LinkedIn: <a href="http://linkedin.com/in/raymond-kaeane-155949224" target="_blank">My LinkedIn Profile</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Moeketsi Kaeane. All rights reserved.</p>
+    </footer>
 </body>
 </html>
